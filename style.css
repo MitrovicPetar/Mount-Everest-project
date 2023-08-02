@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* HEADER */
+.header {
+    height: 80px;
+    background-color: rgba(245, 247, 247, 0.329);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu { 
+    width: 350px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+/* SECTION 1 */
+.sekcija {
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background-image: url('./assets/andreas-gabler-XEW_Wd4240c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home-holder {
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 248, 255, 0.397);
+    box-shadow: 5.0px 10.1px 10.1px hsl(0deg 0% 0% / 0.34);
+}
+
+.home-holder h1 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.home-holder p {
+    padding-top: 50px;
+    max-width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+
+
+/* SECTION 2 */
+.about-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.about {
+    width: 100%;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-holder {
+    height: 40vh;
+    width: 48%;
+}
+
+.about-holder h3 {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.img-holder-l-1 {
+    background-image: url('./assets/about-l-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    transition: transform 0.3s ease;
+}
+
+.img-holder-l-1:hover {
+    transform: scale(1.1);
+}
+
+.img-holder-r-1 {
+    background-image: url('./assets/abut-r-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    transition: transform 0.3s ease;
+}
+
+.img-holder-r-1:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    
+}
+
+.img-holder-l-2 {
+    background-image: url('./assets/about-l-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    transition: transform 0.3s ease;
+}
+
+
+.img-holder-l-2:hover {
+    transform: scale(1.1);
+}
